@@ -1,0 +1,470 @@
+.margintop3{
+	margin-top:3% !important;
+}
+
+.margintopbot{
+    margin-top:3% !important;
+    margin-bottom:3% !important;
+}
+.banner{
+	width: 100% !important;
+    height: 530px !important;
+}
+
+.alink{
+    color: #fff;
+    text-decoration: none;
+}
+
+.alink:hover{
+    color: #333;
+    text-decoration: none;
+}
+.chkwh{
+    height: 15px;
+    width: 25px;
+}
+.radiowh{
+    height: 15px;
+    width: 20px;
+}
+.headerimg{
+	width: 100%;
+    background-image: url(../images/banner1.jpg);
+    height: 480px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.aboutimg{
+    width: 100%;
+    background-image: url(../images/about.jpg);
+    height: 341px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.phead{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logofont{
+    text-align: center;
+    font-size: 8pc;
+}
+.sp1{
+    width: 100%;
+    background-image: url(../images/specialities/cardiology.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s; /* Safari */
+    transition: background-size 1s;
+    overflow:hidden;
+    cursor: pointer
+}
+
+.sp1out:hover .sp1{  
+    background-size: 120% 120%;
+}
+
+.sp1out:hover .sp1inner{  
+    -webkit-transition: visibility 1s; /* Safari */
+    transition: visibility 1s;
+    visibility: visible;
+}
+
+.sp1inner,.sp2inner,.sp3inner,.sp4inner,.sp5inner,.sp6inner{
+    font-size: 14px;
+    text-align: left;
+    background-color: #0009;
+    color: #fff;
+    /* bottom: 0; */
+    position: absolute;
+    width: 92%;
+    height: inherit;
+    padding: 3%;
+    /* visibility: hidden; */
+    -webkit-transition: visibility 1s;
+    transition: visibility 1s;
+    overflow: hidden;
+}
+.sp2{
+    width: 100%;
+    background-image: url(../images/specialities/dental.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s; /* Safari */
+    transition: background-size 1s;
+    overflow:hidden;
+}
+
+.sp2out:hover .sp2{  
+    background-size: 120% 120%;
+}
+
+.sp3{
+    width: 100%;
+    background-image: url(../images/specialities/gynaecology.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s; /* Safari */
+    transition: background-size 1s;
+    overflow:hidden;
+}
+
+.sp3out:hover .sp3{  
+    background-size: 120% 120%;
+}
+
+.sp4{
+    width: 100%;
+    background-image: url(../images/specialities/neurology.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s; /* Safari */
+    transition: background-size 1s;
+    overflow:hidden;
+}
+
+.sp4out:hover .sp4{  
+    background-size: 120% 120%;
+}
+
+.sp5{
+    width: 100%;
+    background-image: url(../images/specialities/anesthesiology.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s; /* Safari */
+    transition: background-size 1s;
+    overflow:hidden;
+}
+
+.sp5out:hover .sp5{  
+    background-size: 120% 120%;
+}
+
+.sp6{
+    width: 100%;
+    background-image: url(../images/specialities/dermatology.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s; /* Safari */
+    transition: background-size 1s;
+    overflow:hidden;
+}
+
+.sp6out:hover .sp6{  
+    background-size: 120% 120%;
+}
+
+.bookapp{
+	padding: 1%;
+    display: inline-block;
+    width: 35%;
+    color: #FFF;
+    border: solid thin;
+    border-radius: 10px;
+    margin-top: 2%;
+    text-align: center;
+    background-color: #4e4e4e;
+    cursor: pointer;
+}
+
+.bookmenu{
+    width: 100%;
+    background-color: #4e4e4e;
+    color: #ecebeb;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    height: 65px;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+
+.bookmenu li{
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 14px;
+    padding: 1% 0 0 1%;
+    cursor:pointer;
+    height: 65px;
+    overflow: hidden;
+    margin-right: 30px;
+    color:#fff;
+}
+
+.bookmenu li a{
+    color: #fff;
+}
+
+.bookmenu li a:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+.bookmenu li:hover svg{
+    font-size: 16px;
+    color:#333;
+}
+
+.logoicon{
+    color: #4e4e4e;
+    font-size: 25px;
+}
+
+.sprow{
+    background-color: #eee;
+}
+
+.doc1{
+    width: 200px;
+    background-image: url(../images/doctors/doc1.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.doc2{
+    width: 200px;
+    background-image: url(../images/doctors/doc2.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.doc3{
+    width: 200px;
+    background-image: url(../images/doctors/doc3.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.doc4{
+    width: 200px;
+    background-image: url(../images/doctors/doc4.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.doc5{
+    width: 200px;
+    background-image: url(../images/doctors/doc5.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.doc6{
+    width: 200px;
+    background-image: url(../images/doctors/doc6.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.doccard{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5%;
+    box-shadow: #000 0px 0px 5px;
+    font-size: 13px;
+    color: #333;
+}
+.docmenu{
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0 0 0;
+    height: 50px;
+    overflow: hidden;
+    border-top: solid 1px #c2c3c8;
+}
+.docmenu li{
+    display: inline-block;
+    padding: 0 5% 0 5%;
+    height: 50px;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+.card{
+    min-height:400px !important;
+    height: 390px !important;
+}
+
+
+.flink{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.flink:hover{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.flogoicon{
+    text-decoration: none;
+    color: #efefef;
+}
+.borderall{
+    border :solid thin;
+}
+
+.borderup{
+    border-top :solid thin;
+}
+
+.borderleft{
+    border-left: solid thin;
+}
+
+.borderright{
+    border-right: solid thin;
+}
+
+.borderdown{
+    border-bottom: solid thin;
+}
+
+.pfont{
+    font-size:14px;
+}
+
+.servicelink{
+    cursor: pointer;
+}
+
+.step1{
+    height: 300px !important;
+    overflow-y: scroll !important;
+}   
+
+.success{
+    text-align: center;
+    background-color: #00a2003b;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    border: solid thin green;
+    border-radius: 5px;
+}
+
+.failure{
+    text-align: center;
+    background-color: #ff02022b;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    border: solid thin red;
+    border-radius: 5px;
+}
+
+.nostyle{
+    text-decoration: none;
+    color:inherit;
+}
+
+.nostyle:hover{
+    text-decoration: none;
+    color:inherit;
+}
+
+.serviceBtn{
+    width: 90%;
+    margin-bottom: 5%;
+    margin-top: -1%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: #959595 0px 0px 5px;
+}
+.serviceimg{
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: #959595 0px 0px 5px;
+    height: 225px;
+}
+.servwinli,.servsplitli,.gasli,.gasliwinin,.gaslisplitin,.gasliwinun,.gaslisplitun,.servwinliin,.servwinliun,.servsplitliin,.servsplitliun{
+    cursor: pointer;
+}
+
+.rate{
+    color: red;
+    font-size: 16px;
+}
+.footer {
+    
+    width: 100%;
+    background-color: #484848;
+    color: #8d8d8d;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    min-height: 475px !important;
+}
